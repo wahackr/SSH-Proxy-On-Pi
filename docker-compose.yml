@@ -1,0 +1,13 @@
+version: '2'
+services:
+  proxy:
+    restart: always
+    build: ./
+    ports:
+        - ${PORT}:${PORT}
+    environment:
+        - PRIVATE_KEY=${PRIVATE_KEY}
+        - HOST=${HOST}
+        - PORT=${PORT}
+    volumes:
+        - ${PRIVATE_KEY_DIR}:/proxy/keys/
