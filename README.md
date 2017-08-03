@@ -2,7 +2,9 @@
 
 ## Intro
 
-Ready to use Docker container proxy via SSH
+Docker container of ready to use sock proxy via SSH for Raspberry Pi
+
+(For x86/x64, update Docker file line 1 to `FROM alpine`)
 
 ## Setup
 Install Docker engine
@@ -18,7 +20,7 @@ will auto create containers and run
 ## Extra
 Docker for Raspberry Pi
 
-[https://hub.docker.com/r/t0rx/rpi-docker-compose/](https://hub.docker.com/r/t0rx/rpi-docker-compose/)
+[https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/](https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/)
 
 docker-compose for Raspberry Pi
 
